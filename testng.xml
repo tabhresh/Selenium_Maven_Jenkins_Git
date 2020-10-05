@@ -3,6 +3,8 @@
 	<test name="Maven_Selenium_Test">
 		<classes>
 			<class name="Testing.Scenario"></class>
+<!-- 			<class name="Testing.Scenario"></class> -->
+
 		</classes>
 	</test>
 </suite>
