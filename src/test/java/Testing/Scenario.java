@@ -41,6 +41,12 @@ public class Scenario {
 	public void Logout() throws InterruptedException {
 		// Click on Sign off
 		driver.findElement(By.linkText("SIGN-OFF")).click();
+	}
+	
+	@Test(dependsOnMethods = "LogOut")
+	public void Logout() throws InterruptedException {
+		// Click on Sign off
+		driver.findElement(By.linkText("Log-OFF")).click();
 		System.out.println("Logged Off successfully");
 		Thread.sleep(3000);
 		driver.quit();
