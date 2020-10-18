@@ -1,1 +1,2 @@
 This project is about how to use selenium with maven and git
+Fork and pull process
