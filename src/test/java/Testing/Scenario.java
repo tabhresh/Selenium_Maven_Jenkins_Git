@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Scenario {
 
-	WebDriver driver;
+	public WebDriver driver;
 
 	@Test
 	public void openApp() {
